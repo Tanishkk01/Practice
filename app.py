@@ -92,7 +92,7 @@ def predict_note_authentication(age,cp,trestbps,chol,fbs,Gender,Geography,restec
 def main():
     
     html_temp = """
-   <div class="" style="background-color:blue;" >
+   <div class="" style="background-color:red;" >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:white;margin-top:10px;">Poornima Institute of Engineering & Technology</p></center> 
@@ -124,7 +124,7 @@ def main():
       result=predict_note_authentication(age,cp,trestbps,chol,fbs,Gender,Geography,restecg,thalach,exang,oldpeak,slope,ca,thal)
       st.success('Model has predicted {}'.format(result))
     if st.button("About"):
-      st.subheader("Developed by Priyanshu Jain")
+      st.subheader("Developed by Tanishk khandelwal")
       st.subheader("C-Section,PIET")
 
 if __name__=='__main__':
